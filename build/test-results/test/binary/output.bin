@@ -1,0 +1,10 @@
+Start import user
+Invalid UUID string: id1
+Total imported user: 0
+Start import user
+Total imported user: 3
+Start import user
+%src/test/resources/invalid_users.csv
+Total imported user: 0
+Start import user
+Invalid header

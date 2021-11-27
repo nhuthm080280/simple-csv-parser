@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="UserServiceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-11-27T13:21:51" hostname="Macintoshs-MBP" time="0.033">
+  <properties/>
+  <testcase name="bulkImportUsersCSVFaild_InvalidId()" classname="UserServiceTest" time="0.025"/>
+  <testcase name="bulkImportUsersCSV_Success()" classname="UserServiceTest" time="0.002"/>
+  <testcase name="bulkImportUsersCSVFailed_FileNotFound()" classname="UserServiceTest" time="0.001"/>
+  <testcase name="bulkImportUsersCSVFailed_InvalidHeader()" classname="UserServiceTest" time="0.002"/>
+  <system-out><![CDATA[Start import user
+Invalid UUID string: id1
+Total imported user: 0
+Start import user
+Total imported user: 3
+Start import user
+src/test/resources/invalid_users.csv
+Total imported user: 0
+Start import user
+Invalid header
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
